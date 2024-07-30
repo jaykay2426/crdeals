@@ -865,6 +865,9 @@ header .menu.active{
         right: 20px;
     }
 
+    .banner .product-list{
+        margin-left: -100px;
+    }
 
 
 }
