@@ -818,6 +818,7 @@ header .menu.active{
     .nav{
         right: 0;
         width: 100%;
+        background: black;
     }
 
     .nav.active{
