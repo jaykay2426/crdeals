@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McLAREN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <span class="year">2018 - 2024</span>
+        <a href="index.html" class="logo"><img src="logo.png" alt="logo"></a>
+        <a href="#" class="menu" onclick="toggleMenu();"></a>
+    </header>
+
+    <div class="banner">
+
+        <ul class="nav">z
+            
+            <li><a href="#">Supercars</a></li>
+            <li><a href="car.html">Luxury Cars</a></li>
+            <li><a href="#">Heavy Duty</a></li>
+            <li><a href="#">Small cars</a></li>
+            <li><a href="#">Jeeps</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+        </ul>
+
+        <div class="bg-video-list">
+
+            <video 
+            class="bg-video mclaren-1 active" 
+            src="mclaren-1.mp4"
+            autoplay
+            loop
+            muted
+            ></video>
+
+            <video 
+            class="bg-video mclaren-2 " 
+            src="mclaren-2.mp4"
+            autoplay
+            loop
+            muted
+            ></video>
+
+            <video 
+            class="bg-video mclaren-3 " 
+            src="mclaren-3.mp4"
+            autoplay
+            loop
+            muted
+            ></video>
+
+            <video 
+            class="bg-video mclaren-4 " 
+            src="mclaren-4.mp4"
+            autoplay
+            loop
+            muted
+            ></video>
+
+            <video 
+            class="bg-video mclaren-5 " 
+            src="mclaren-5.mp4"
+            autoplay
+            loop
+            muted
+            ></video>
+        </div>
+
+        <div class="content">
+
+            <h1>McLAREN</h1>
+
+            <h3 class="model mclaren-1 active">756LT SPIDER</h3>
+            <h3 class="model mclaren-2" style="color: greenyellow;">ARTURA</h3>
+            <h3 class="model mclaren-3" style="color: red;">750S</h3>
+            <h3 class="model mclaren-4" style="color: red;">756LT</h3>
+            <h3 class="model mclaren-5" style="color: whitesmoke;">750S SPIDER</h3>
+
+            <p>Experience the epitome of performance and luxury with the McLaren 
+                765LT Spider. This supercar combines breathtaking speed with the 
+                exhilaration of open-air driving. With its lightweight design and 
+                powerful engine, the 765LT Spider delivers an unmatched driving 
+                experience, pushing the boundaries of what’s possible on the road.
+            </p>
+                
+
+               <a href="#">Enquire</a>
+
+        </div>
+
+        <div class="screen">
+            <div class="shadow">
+                <div>
+                    <span style="--i:0">
+                        <!--Insert th screen video-->
+                        <video 
+                        class="trailer mclaren-1 screen-video active" 
+                        src="mclaren-1.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                        <video 
+                        class="trailer mclaren-2 screen-video" 
+                        src="mclaren-2.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                        <video 
+                        class="trailer mclaren-3 screen-video" 
+                        src="mclaren-3.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                        <video 
+                        class="trailer mclaren-4 screen-video" 
+                        src="mclaren-4.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                        <video 
+                        class="trailer mclaren-5 screen-video" 
+                        src="mclaren-5.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                    </span>
+                    
+                    <span style="--i:1">
+                        <video 
+                        class="screen-video"
+                        src="trailer-1.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                    </span>
+                    <span style="--i:2">
+                        <video 
+                        class="screen-video"
+                        src="trailer-2.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                    </span>
+                    <span style="--i:3">
+                        <video 
+                        class="screen-video"
+                        src="trailer-3.mp4"
+                        autoplay
+                        loop
+                        muted
+                        ></video>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="carousel">
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-1');">
+                    <img src="mclaren-1.jpg" alt="">
+                    <h4>765LT SPIDER</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-2');">
+                    <img src="mclaren-2.jpg" alt="">
+                    <h4 style="color: greenyellow;">ARTURA</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-3');">
+                    <img src="mclaren-3.jpeg" alt="">
+                    <h4 style="color: red;">750S</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-4');">
+                    <img src="mclaren-4.jpeg" alt="">
+                    <h4 style="color: red;">765LT</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-5');">
+                    <img src="mclaren-5.jpeg" alt="">
+                    <h4 style="color: whitesmoke;">750S SPIDER</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        <ul class="sci">
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="#"><i class="bi bi-phone"></i></a></li>
+        </ul>
+
+        <section class="new-arrivals">
+            <h1>NEW ARRIVALS</h1>
+            <p></p>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="benz350.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Mercedes-Benz C350-2021 <br>
+                            white <br>
+                            ₦ 18,000,000.00 <br>
+                            <br> <br>
+                            <small>Condition: New</small>
+                        </h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+                <div class="product-card">
+                    <img src="benzgle.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Mercedes-Benz GLE 2021<br>
+                            white <br>
+                            ₦ 35,000,000.00
+                            <br>
+                            <br> <br>
+                            <small>Condition: New</small></h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+               
+                
+               
+                <div class="product-card">
+                    <img src="benzglc.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Mercedes-Benz GLEC2021<br>
+                            grey <br>
+                            ₦ 37,000,000.00
+                            <br>
+                            <br> <br>
+                            <small>Condition: New</small>
+                        </h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+                
+                <div class="product-card">
+                    <img src="lexu rx 350.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Mercedes-Benz GLE 2021<br>
+                            white <br>
+                            ₦ 47,000,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+                
+                <div class="product-card">
+                    <img src="mc laren artura.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>MecLaren-Artura-750S-Spider<br>
+                            white <br>
+                            ₦ 210,270,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+
+                <div class="product-card">
+                    <img src="lamborghini hurucan.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Lamborghini-Hurucan<br>
+                            green <br>
+                            ₦ 345,150,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+
+                <div class="product-card">
+                    <img src="porshe 911 gt3.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Porsche-911-GT3<br>
+                            white <br>
+                            ₦ 115,000,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div> 
+
+                <div class="product-card">
+                    <img src="acuramdxbaltimore.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Acura-MDX-2022<br>
+                            white <br>
+                            ₦ 67,000,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div>
+                
+                <div class="product-card">
+                    <img src="dodge.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Dodge-Challenger-2021<br>
+                            black <br>
+                            ₦ 38,000,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="dodge durango 2024.jpeg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Dodge-Challenger-2024<br>
+                            black <br>
+                            ₦ 123,087,118.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="dodge charger.avif" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Dodge-Charger-2023<br>
+                            black <br>
+                            ₦ 94,107,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div>
+
+                <div class="product-card">
+                    <img src="2024_Jaguar_F-Type_Angular_Front_1.jpg" alt="Product Image">
+                    <div class="product-info">
+                        <h2>Jaguar-F-Type-2024<br>
+                            black <br>
+                            ₦ 174,107,000.00</h2>
+                        <p>INSPIRED BY THE YUTES</p>
+                    </div>
+                    <div class="wishlist">
+                        <i class="fa-regular fa-heart wishlist-icon"></i>
+                    </div>
+                    
+                   <span class="preorder">Available on Preorder Only</span>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-subscribe">
+                <p>Join the community of <br> "McLARREN" <br> to receive exclusive updates.</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>BRAND</h3>
+                    <a href="story.html">Story</a>
+                    <a href="#">Collaborations</a>
+                    <a href="#">McLAREN</a>
+                </div>
+                <div class="footer-column">
+                    <h3>FOLLOW US</h3>
+                    <a href="#"><i class="fa-brands fa-square-threads"></i>      X</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i>      Instagram</a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i>      Facebook</a>
+                </div>
+                <div class="footer-column">
+                    <h3>HELP</h3>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="FAQpage.html">FAQs</a>
+                    <a href="shipping.html">Shipping and Returns</a>
+                </div>
+                <div class="footer-column">
+                    <h3>LEGAL</h3>
+                    <a href="termsandcondition.html">Terms & Conditions</a>
+                    <a href="accessibilitypage.html">Accessibility</a>
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>McLAREN | John Ogunnusi</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('.carousel').carousel();
+        });
+    </script>
+       
+</body>
+</html>
